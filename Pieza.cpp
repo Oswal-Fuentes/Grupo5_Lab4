@@ -1,4 +1,4 @@
-#include "pieza.h"
+#include "Pieza.h"
 
 Pieza::Pieza(){
 
