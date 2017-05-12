@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class General
+class General : public Pieza
 {
 	private:
 		

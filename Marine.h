@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class Marine
+class Marine : public Pieza
 {
 	private:
 		
