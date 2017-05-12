@@ -4,6 +4,6 @@ General::General()
 {
 }
 
-General::General(int px, int py) : Pieza(px, py)
+General::General(string pTipo, int pJugador) : Pieza(pTipo, pJugador)
 {
 }

@@ -1,4 +1,4 @@
-#include <vector>
+#include <string>
 #include "Pieza.h"
 
 #ifndef GENERAL_H
@@ -12,13 +12,6 @@ class General : public Pieza
 		
 	public:
 		General();
-		General(int, int);
-
-		int getX();
-		void setX(int);
-		int getY();
-		void setY(int);
-		
-	
+		General(string, int);
 };
 #endif

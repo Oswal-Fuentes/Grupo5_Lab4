@@ -4,24 +4,19 @@ Pieza::Pieza(){
 
 }
 
-Pieza::Pieza(int px,int py){
-  this->x=px;
-  this->y=py;
+Pieza::Pieza(string ptipo,int pjugador){
+  tipo = ptipo;
+  jugador = pjugador;
 }
 
-int Pieza::getX(){
-
-  return x;
+string Pieza::getTipo(){
+  return tipo;
 }
 
-int Pieza::getY(){
-  return y;
+int Pieza::getJugador(){
+  return jugador;
 }
 
-void Pieza::setX(int px){
-  x=px;
-}
-
-void Pieza::setY(int py){
-  y=py;
+void Pieza::setTipo(string px){
+  tipo = px;
 }

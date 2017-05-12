@@ -4,6 +4,6 @@ Marine::Marine()
 {
 }
 
-Marine::Marine(int px, int py) : Pieza(px, py)
+Marine::Marine(string pTipo, int pJugador) : Pieza(pTipo, pJugador)
 {
 }

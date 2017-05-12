@@ -1,4 +1,4 @@
-#include <vector>
+#include <string>
 #include "Pieza.h"
 
 #ifndef MARINE_H
@@ -12,13 +12,7 @@ class Marine : public Pieza
 		
 	public:
 		Marine();
-		Marine(int, int);
-
-		int getX();
-		void setX(int);
-		int getY();
-		void setY(int);
-		
+		Marine(string, int);
 	
 };
 #endif
