@@ -14,5 +14,6 @@ class Marine : public Pieza
 		Marine();
 		Marine(string, int);
 	
+		char toString();
 };
 #endif

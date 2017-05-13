@@ -13,5 +13,7 @@ class General : public Pieza
 	public:
 		General();
 		General(string, int);
+
+		char toString();
 };
 #endif
